@@ -14,7 +14,7 @@ import re
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # !!! SECURITY WARNING: REPLACE THIS WITH YOUR REAL API KEY AND DETAILS !!!
-API_KEY = "AIzaSyBbYalmyo7n6wv-h-ZvFsjUBYLMoKHzHGA"
+API_KEY = ""
 PROJECT_ID = "smartstoryteller2006"
 LOCATION = "us-central1"
 
@@ -294,4 +294,5 @@ def main():
                             st.audio(audio_file_bytes, format='audio/mp3')
 
 if __name__ == "__main__":
+
     main()
